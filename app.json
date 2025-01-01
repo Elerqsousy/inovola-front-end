@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "hm_with_love",
+    "slug": "hm_with_love",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "ExpoLocalization_supportsRTL": true,
+        "CFBundleAllowMixedLocalizations": true
+      },
+      "bundleIdentifier": "narhadia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "narhadia.com",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      "expo-localization"
+    ],
+    "locales": {
+      "ar": "./src/translation/Arabic.json",
+      "en": "./src/translation/English.json"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "supportsRTL": true,
+      "swapLeftAndRightInRTL": true,
+      "eas": {
+        "projectId": "3f9db78e-4b49-4ad4-9e8e-661f4147d6f3"
+      }
+    },
+    "owner": "erqsousy"
+  }
+}

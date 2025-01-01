@@ -1,0 +1,183 @@
+{
+  "common": {
+    "currency": "EGP",
+    "kg": "kg",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "hrs": "hours",
+    "menu": "Menu",
+    "orders": "Orders",
+    "settings": "Settings",
+    "loading": "Loading...",
+    "field_required": "This field is required",
+    "continue_browsing": "Continue browsing"
+  },
+  "auth": {
+    "sign_up": "Sign up",
+    "sign_in": "Sign in",
+    "have_acc": "have an account?",
+    "sign_in_instd": "Sign in instead.",
+    "email": "Email",
+    "email_example": "example@domain.com",
+    "password": "Password",
+    "password_restrictions": "At least 6 characters",
+    "create_account": "Create Account",
+    "creating_account": "Creating Account...",
+    "signing_in": "Signing in...",
+    "dont_hv_acc": "You don't have an account?",
+    "creat_an_acc": "Create an account.",
+    "error": {
+      "anonymous_provider_disabled": "Email and Password are required!",
+      "validation_failed": "Please enter a valid email and password!",
+      "confirm": "Confirm",
+      "invalid_login_cred": "Invalid login Credentials.",
+      "unexpected_failure": "Unexpected Error!"
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "failed_fetch_product": "Faild to fetch products.",
+    "select_size": "Select size",
+    "add_to_card": "Add to cart",
+    "prep_notes": "Preparation Notes:",
+    "preparation_time": "Preparation time:",
+    "main_dish": "Main Dish",
+    "sides": "Sides",
+    "appetizers": "Appetizers",
+    "salads": "Salads",
+    "soups": "Soups",
+    "drinks": "Drinks"
+  },
+  "addons": {
+    "failed_fetch_addons": "Failed to fetch Add-ons.",
+    "exstras": "Extras:",
+    "free": "Free"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty_cart": "Your cart is epmty!",
+    "total": "Total:",
+    "checkout": "Checkout",
+    "proceed_checkout": "Proceed to Checkout",
+    "size": "Size:"
+  },
+  "address": {
+    "failed_fetch_addresses": "Failed to fetch Addresses",
+    "form": {
+      "name": "Contact Name",
+      "phone": "Phone n",
+      "phone_ph": "01112223334",
+      "address_label": "Address Label",
+      "address_label_ph": "Home Rehab, Office.",
+      "address": "Address",
+      "address_ph": "Complete address line.",
+      "area": "Area",
+      "area_ph": "Rehab - Nasr City - Hadaba Wusta, Moqattam",
+      "governorate": "Governorate",
+      "governorate_ph": "Cairo",
+      "apt_n": "Apt. n",
+      "apt_n_ph": "B16 - 212",
+      "floor_n": "Floor n",
+      "floor_n_ph": "2",
+      "building_name_ph": "Al Samir Towers",
+      "building_name": "Building Name",
+      "land_mark": "Land Mark",
+      "land_mark_ph": "Near Taqa gas station",
+      "submit": "Add Address"
+    }
+  },
+  "governorates": {
+    "cairo": "Cairo",
+    "new_cairo": "New Cairo",
+    "giza": "Giza"
+  },
+  "orders": {
+    "order_n": "Order #",
+    "total": "Total:",
+    "title": "Orders",
+    "status": {
+      "status": "Status",
+      "new": "New",
+      "confirmed": "Confirmed",
+      "cooking": "Preparing",
+      "delivering": "Out for delivery",
+      "delivered": "Delivered",
+      "canceled": "Canceled"
+    },
+    "failed_fetch_orders": "Failed to fetch Orders.",
+    "failed_fetch_order": "Failed to fetch Order.",
+    "order_not_found": "Order not found!",
+    "empty_orders": "No orders yet!",
+    "payment": {
+      "not_confirmed": "This order hasn't been confirmed yet!",
+      "payment_made": "If payment is made, kindly, allow some time to proccess it. Once done your status will change to ",
+      "status_confirmed": "Confirmed",
+      "did_not_pay": "If you didn't pay yet, please consider ",
+      "view_payment_option": "viewing payment options."
+    }
+  },
+  "checkout": {
+    "delivery_address": "Choose Delivery Address",
+    "delivery_date_time": "Choose Delivery Date and Time",
+    "add_address": "Add new address",
+    "no_available_addresses": "No available addresses!"
+  },
+  "action_center": {
+    "double_back_msg": "Press back again to exit the app",
+    "double_back_action": "Exit"
+  },
+  "settings": {
+    "profile": {
+      "title": "Profile",
+      "email": "Email",
+      "name": "Full Name",
+      "name_ph": "Hassan Salem",
+      "contact": "Main Contact Number",
+      "contact_ph": "01122334455",
+      "edit": "Edit",
+      "reset": "Reset"
+    },
+    "address": {
+      "title": "Addresses"
+    },
+    "language": {
+      "title": "Language"
+    },
+    "signout": {
+      "title": "Sign Out",
+      "confirm_signout": "Are you sure you want to sign out?",
+      "sign_out": "Sign Out"
+    }
+  },
+  "welcome_screen": {
+    "message": "Indulge in the rich flavors of our carefully crafted dishes. Our meats are marinated for 3 to 7 days and slow-cooked for at least 5 hours, ensuring each bite melts in your mouth. From tender lamb and beef to succulent turkey and duck, we offer a variety of options that cater to every palate. Don’t forget to try our boneless chicken, flavorful rice, and creamy béchamel macaroni!",
+    "message2": "Minimum order is 500 EGP.",
+    "cta": "Join us on this delicious journey!",
+    "menu": "Our Menu"
+  },
+  "order_confirm": {
+    "success": "Success!",
+    "order": "Order ",
+    "placed_successfully": " has been placed Successfuly!",
+    "agent_contact": "One of our agents will contact you shortly.",
+    "pay": "Pay ",
+    "to_confirm_order": "to confirm your order.",
+    "actions": {
+      "show_payment_options": "View Payment Options",
+      "back": "Back"
+    }
+  },
+  "payment_options": {
+    "insta": "InstaPay",
+    "wallet": "Electronic Wallet",
+    "use_wallet": "Use your preferd Electronic Wallet to complete your order.",
+    "click_mobile": "Click on the the mobile number to copy, insert it on your app of choice.",
+    "insert_amount": "Insert the amount of ",
+    "set_to_go": ", and you are set to go!",
+    "fill_insta_auto": "You can open the InstaPay App and fill out InstaPay transfer form automatically by clicking on the button bellow.",
+    "open_insta": "Open InstaPay App",
+    "action_center_msg": "Mobile Number saved to clipboard.",
+    "action_center_btn": "01113381081"
+  }
+}

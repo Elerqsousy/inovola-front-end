@@ -1,0 +1,183 @@
+{
+  "common": {
+    "currency": "ج.م",
+    "kg": "كج",
+    "add": "أضف",
+    "remove": "إلغاء",
+    "select": "اختر",
+    "hrs": "ساعة",
+    "menu": "القائمة",
+    "orders": "الطلبات",
+    "settings": "الإعدادات",
+    "loading": "جاري التحميل...",
+    "field_required": "هذه الخانة مطلوبة",
+    "continue_browsing": "تابع التصفح"
+  },
+  "auth": {
+    "sign_up": "حساب جديد",
+    "sign_in": "تسجيل الدخول",
+    "have_acc": "لديك حساب؟",
+    "sign_in_instd": "سجل الدخول",
+    "email": "البريد الإلكتروني",
+    "email_example": "example@domain.com",
+    "password": "كلمة المرور",
+    "password_restrictions": "ما لا يقل عن 6 أحرف",
+    "create_account": "إنشاء حساب",
+    "creating_account": "يتم إنشاء الحساب...",
+    "signing_in": "جار تسجيل الدخول...",
+    "dont_hv_acc": "ليس لديك حساب؟",
+    "creat_an_acc": "سجل حساب جديد.",
+    "error": {
+      "anonymous_provider_disabled": "البريد الإلكتروني وكلمة المرور مطلوبين لتسجيل الدخول!",
+      "validation_failed": "برجاء إدخال بريد إلكتروني وكلمة مرور صحيحين!",
+      "confirm": "تأكيد",
+      "invalid_login_cred": "بيانات تسجيل الدخول غير صحيحة.",
+      "unexpected_failure": "عطل غير متوقع!"
+    }
+  },
+  "menu": {
+    "title": "قائمة الطعام",
+    "failed_fetch_product": "فشل في تحميل المنتجات.",
+    "select_size": "اختر الحجم",
+    "add_to_card": "أضف إلى السلة",
+    "prep_notes": "ملاحظات تحضير الوجبة:",
+    "preparation_time": "مدة التحضير:",
+    "main_dish": "الأطباق الرئيسية",
+    "sides": "الأطباق الجانبية",
+    "appetizers": "المقبلات",
+    "salads": "السلطات",
+    "soups": "الشوربات",
+    "drinks": "المشروبات"
+  },
+  "addons": {
+    "failed_fetch_addons": "فشل في تحميل الإضافات.",
+    "exstras": "الإضافات:",
+    "free": "مجاني"
+  },
+  "cart": {
+    "title": "سلة المشتريات",
+    "empty_cart": "سلة المشريات فارغة!",
+    "total": "المجموع:",
+    "checkout": "تنفيذ الطلب",
+    "proceed_checkout": "تأكيد الطلب",
+    "size": "الحجم:"
+  },
+  "address": {
+    "failed_fetch_addresses": "فشل في تحميل العناوين.",
+    "form": {
+      "name": "اسم المستلم",
+      "phone": "رقم الهاتف",
+      "phone_ph": "01112223334",
+      "address_label": "اسم لتمييز العنوان",
+      "address_label_ph": "منزل الرحاب -المكتب.",
+      "address": "العنوان",
+      "address_ph": "العنوان بالتفصيل",
+      "area": "المنطقة",
+      "area_ph": "الرحاب - مدينة نصر - الهضبة الوسطى٫ المقطم",
+      "governorate": "المحافظة",
+      "governorate_ph": "القاهرة",
+      "apt_n": "رقم الشقة",
+      "apt_n_ph": "١٦ب - ٣١٢",
+      "floor_n": "رقم الدور",
+      "floor_n_ph": "٢",
+      "building_name": "اسم العقار",
+      "building_name_ph": "أبراج الريان",
+      "land_mark": "علامة مميزة",
+      "land_mark_ph": "بالقرب من محطة وقود طاقة",
+      "submit": "إضافة العنوان"
+    }
+  },
+  "governorates": {
+    "cairo": "القاهرة",
+    "new_cairo": "القاهرة الجديدة",
+    "giza": "الجيزة"
+  },
+  "orders": {
+    "order_n": "طلب رقم #",
+    "total": "المجموع:",
+    "title": "الطلبات",
+    "status": {
+      "status": "حالة الطلب",
+      "new": "جديد",
+      "confirmed": "مؤكد",
+      "cooking": "يتم إعداد طلبك",
+      "delivering": "خرج للتوصيل",
+      "delivered": "تم التوصيل",
+      "canceled": "ملغى"
+    },
+    "failed_fetch_orders": "فشل في تحميل الطلبات.",
+    "failed_fetch_order": "فشل في تحميل الطلب.",
+    "order_not_found": "لم يتم العثور على الطلب!",
+    "empty_orders": "لا يوجد طلبات!",
+    "payment": {
+      "not_confirmed": "لم يتم تأكيد هذا الطلب بعد!",
+      "payment_made": "إذا تم الدفع، يُرجى السماح لبعض الوقت لمعالجته. بمجرد الانتهاء، سيتغير وضع الطلب إلى ",
+      "status_confirmed": "مؤكد",
+      "did_not_pay": "إذا لم تقم بالدفع بعد، يُرجى الإطلاع على ",
+      "view_payment_option": "خيارات الدفع."
+    }
+  },
+  "checkout": {
+    "delivery_address": "اختر عنوان التوصيل",
+    "delivery_date_time": "اختر تاريخ ووقت التوصيل",
+    "add_address": "أضف عنوان جديد",
+    "no_available_addresses": "لا يوجد عناوين متاحة!"
+  },
+  "action_center": {
+    "double_back_msg": "اضغط على الرجوع مرة أخرى للخروج من التطبيق",
+    "double_back_action": "خروج"
+  },
+  "settings": {
+    "profile": {
+      "title": "الملف الشخصي",
+      "email": "البريد الإلكتروني",
+      "name": "الإسم الكامل",
+      "name_ph": "حسن سالم",
+      "contact": "رقم التواصل الرئيسي",
+      "contact_ph": "01122334455",
+      "edit": "تعديل",
+      "reset": "مسح التغييرات"
+    },
+    "address": {
+      "title": "العناوين"
+    },
+    "language": {
+      "title": "تغيير اللغة"
+    },
+    "signout": {
+      "title": "تسجيل الخروج",
+      "confirm_signout": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+      "sign_out": "تسجيل الخروج"
+    }
+  },
+  "welcome_screen": {
+    "message": "استمتعوا بالنكهات الغنية لأطباقنا المعدة بعناية. لحومنا تتبّل من ٣ إلى ٧ أيام وتُطهى ببطء لمدة لا تقل عن ٥ ساعات، مما يضمن أن كل قضمة تذوب في فمكم. من لحم الضأن والعجل الطري إلى الديك الرومي والبط الشهي، نقدم مجموعة متنوعة من الخيارات التي تناسب كل الأذواق. لا تنسوا تجربة الدجاج المخلي، والأرز المنكّه، والمعكرونة بالكريمة!",
+    "cta": "انضموا إلينا في هذه الرحلة اللذيذة!",
+    "message2": "الحد الأدنى للطلب هو 500 جنيه مصري.",
+    "menu": "قائمة الطعام"
+  },
+  "order_confirm": {
+    "success": "نجاح!",
+    "order": "طلب ",
+    "placed_successfully": " تم تقديمه بنجاح!",
+    "agent_contact": "سيتواصل معك أحد وكلائنا قريبًا.",
+    "pay": "ادفع ",
+    "to_confirm_order": "لتأكيد طلبك.",
+    "actions": {
+      "show_payment_options": "عرض خيارات الدفع",
+      "back": "رجوع"
+    }
+  },
+  "payment_options": {
+    "insta": "إنستا باي",
+    "wallet": "محفظة إلكترونية",
+    "use_wallet": "استخدم محفظتك الإلكترونية المفضلة لإتمام طلبك.",
+    "click_mobile": "انقر على رقم الهاتف لنسخه، ثم أدخله في التطبيق الذي تفضله.",
+    "insert_amount": "أدخل مبلغ ",
+    "set_to_go": "٫ وأنت جاهز للانطلاق!",
+    "fill_insta_auto": "يمكنك فتح تطبيق إنستا باي وملء نموذج التحويل تلقائيًا بالنقر على الزر أدناه.",
+    "open_insta": "فتح تطبيق إنستا باي",
+    "action_center_msg": "تم نسخ رقم الهاتف.",
+    "action_center_btn": "01113381081"
+  }
+}
